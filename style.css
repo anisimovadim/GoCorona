@@ -6,7 +6,7 @@ body{
     background-color: #FAFBFD;
     font-family: 'Rubik';
     margin: auto;
-    background-image: url(/picture/bg.png);
+    background-image: url(picture/bg.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-size: 50%;
