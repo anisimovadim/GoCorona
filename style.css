@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Rubik:wght@500&display=swap');
+body{
+    text-rendering: optimizespeed;
+    width: 100%;
+    background-color: #FAFBFD;
+    font-family: 'Rubik';
+    margin: auto;
+    background-image: url(/picture/bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 50%;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.logo-text{
+    margin-left: 2%;
+    font-size: 18px;
+}
+.two-logo-text{
+    color: #EC5863;
+}
+.logo{
+    display: flex;
+    margin-top: 37px;
+    margin-right: 15%;
+}
+.t1,
+.t2,
+.t3,
+.t4,
+.t5{
+    letter-spacing: 0.14em;
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+}
+.t5{
+    background: #4285F4;
+    padding: 12px 31px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 43px;
+}
+.t5:hover{
+    box-shadow: 0px 0px 15px 12px rgba(34, 60, 80, 0.2);
+}
+.t1:hover{
+    text-decoration: underline;
+}
+.t2:hover{
+    text-decoration: underline;
+}
+.t3:hover{
+    text-decoration: underline;
+}
+.t4:hover{
+    text-decoration: underline;
+}
